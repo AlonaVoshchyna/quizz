@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Quiiiizzzz</title>
+</head>
+<body>
+<!-- top section -->
+<div class="intro py-3 bg-white text-center">
+    <div class="container">
+<h2 class="text-secondary display-3 my-4">Quizzzz</h2>
+    </div>
+</div>
+<!-- quiz section -->
+ <div class="quiz py-4 bg-info ">
+    <div class="container">
+        <h2 class="my-5 text-white">Let's get it started, in he-e-re...  Check your JavaScript knowledge with me </h2>
+
+<div class="result py-4 d-none bg-light text-center">
+    <div class="container lead">
+        <p>You are <span class="text-primary display-4 p-3">0%</span> JS master</p>
+    </div>
+</div>
+
+        <form class="quiz-form text-light">
+            <div class="my-5">
+                <p class="lead font-weight-normal">1. What does <b>typeof</b> operator return when called on null?</p>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q1" value="A">
+                    <label class="form-check-label">"object"</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q1" value="B">
+                    <label class="form-check-label">"undefined"</label>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">2. Which keyword is used to declare a block-scoped variable?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="A">
+                        <label class="form-check-label">"let"</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="B">
+                        <label class="form-check-label">"var"</label>
+                    </div>
+
+                    <div class="my-5">
+                        <p class="lead font-weight-normal">3. What is the result of <b>Boolean(0)</b>?</p>
+                        <div class="form-check my-2 text-white-50">
+                            <input type="radio" name="q3" value="A">
+                            <label class="form-check-label">"true"</label>
+                        </div>
+                        <div class="form-check my-2 text-white-50">
+                            <input type="radio" name="q3" value="B">
+                            <label class="form-check-label">"false"</label>
+                        </div>
+            </div>
+            <div class="my-5">
+                <p class="lead font-weight-normal">4. Which method is used to add an element to the end of an array?</p>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q4" value="A">
+                    <label class="form-check-label">"push()"</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q4" value="B">
+                    <label class="form-check-label">"pop()"</label>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">5. Which statement creates an object in JavaScript?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="A">
+                        <label class="form-check-label">"let obj = {};"</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="B">
+                        <label class="form-check-label">"let obj = [];"</label>
+                    </div>
+
+                    <div class="text-center">
+                        <input type="submit" class="btn btn-light" value="Submit">
+
+                    </div>
+        </form>
+    </div>
+ </div>
+
+    <script src="quizz.js"></script>
+</body>
+</html>
